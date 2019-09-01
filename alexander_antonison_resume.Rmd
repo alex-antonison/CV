@@ -1,0 +1,193 @@
+---
+title: "Alexander Antonison"
+author: Alexander Antonison
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+Aside
+================================================================================
+
+![Alex Antonison](images/antonison_resume_img.png){width=100%}
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> adantonison@gmail.com
+- <i class="fab fa-linkedin"></i> [Alexander Antonison](https://www.linkedin.com/in/alexanderantonison/)
+- <i class="fa fa-github"></i> [github.com/alex-antonison](https://github.com/alex-antonison/)
+- <i class="fab fa-twitter"></i> [twitter.com/adantonison](https://twitter.com/adantonison)
+- <i class="fas fa-globe"></i> http://alex-antonison.com/
+- <i class="fa fa-phone"></i> 256-426-4379
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+- **Programming**
+  + R, Python, SQL, BASH, Markdown
+- **Analysis**
+  + Feature Engineering, Machine Learning, Model Evaluation, Statistical Analysis
+- **Data Platforms/Frameworks** 
+  + MSSQL, Postgres, Redshift, Google Big Query, Athena, Hive, Presto, Spark, Salesforce
+- **Data Tools**
+  + Talend, Tableau, PowerBI, SSRS, Excel(PowerQuery/PowerPivot), Jupyter Notebook, RMarkdown
+- **Development Tools** 
+  + Docker, RStudio Server Pro, JupyterHub, GitHub, Bitbucket, Trello, JIRA, Confluence
+- **Cloud Platforms**
+  + Google Cloud Platform (GCP), Amazon Web Services (AWS)
+- **Operating Systems**
+  + Windows, Linux (Redhat, Ubuntu), OSX
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on `r Sys.Date()`.
+
+Main
+================================================================================
+
+Alexander Antonison {#title}
+--------------------------------------------------------------------------------
+
+### Machine Learning Engineer
+
+A passionate Machine Learning Engineer focused on helping find data solutions to solve business problems.  My Data Engineering and Data Science background provides me the ability to effectively communicate between both worlds which helps in circumstances such as deploying and managing models in production.  I am pursuing a Masters in Data Science through the University of Illinois Urbana-Champaign.
+
+My passion also extends to fostering the data community by organizing a local meetup, [Nashville Data Nerds](https://www.meetup.com/data-nerds/), a meetup focused around educating and working with data.  Along with the meetup, Nashville Data Nerds is working with local non-profits to help do analytics to help them serve the Greater Nashville Area [gitub.com/nashville-data-nerds](https://github.com/nashville-data-nerds).
+
+
+Work Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Axial Healthcare
+
+Data Engineer -> Data Scientist
+
+Nashville, TN, USA
+
+Current - 2017
+
+Axial Healthcare is a healthcare startup devoted to combating the opioid epidemic using clinical expertise, analytics, and technology solutions.
+
+Initially, I worked on the **Data Operations** team to help enhance and manage the intake and the processing of client and reference data.  I transferred to the **Data Science** team where my focus on the  team has been to streamline the development of models as well as the deployment and management of models in production.
+
+- Improve model and analysis development efficieny by developing and maintaining in-house R and python packages to streamline development actions and feature development.
+- Improve the deployment of models from development to production by putting in place a source control strategy, environment management, and adding error handling and logging to models.
+- Provide development guidance related to coding practices and source control to fellow data scientists and researchers.
+- Reduce development downtime by ensuring compute resources for the data science team are operating nominally.  This includes R Studio Server Pro, JupyterHub, and a Redshift cluster.
+- Improved client intake process of client data (Medical Claims, Rx Claims, Provider and Member information) by automating aspects of it
+- Contributed to the development of an enhanced metric engine by coding the data extraction layer in Scala with Spark.
+
+### FreseniusRx
+
+Data Engineer/Analyst
+
+Nashville, TN
+
+2017 - 2015
+
+FreseniusRx is a specialty pharmacy that supports End Stage Renal Disease (ESRD) patients that require dialysis. I supported analytic groups within Fresenius and FreseniusRx along with day to day operations through developing Data Pipelines, warehousing data, developing and maintaining reporting and dashboard solutions.
+
+- Improved the quality and speed of delivering data and reports to the business by developing scheduled data pipelines using Talend that ETLed application and third party data into a data warehouse.
+- Increased users ability to access and utilize data by curating data marts and supporting self-service analytics with PowerBI and Excel (PowerQuery and PowerPivot)
+- Improved visibility into operational and compliance issues by developing automated report alerts that e-mailed stakeholders using SSRS and Talend.
+- Streamlined the extraction and loading of data into Salesforce using Talend in support of call center operations.
+
+
+### Oilfield Instrumentation
+
+System Analyst
+
+Lafayette, LA
+
+2015 - 2014
+
+Worked in the engineering department of an oilfield drilling instrumentation company and responsible for supporting development, testing, and troubleshooting field issues of multiple OI software products.
+
+- Improved the maintainability and efficiency of customer SSRS report suite.  Accomplished this by optimizing the underlying SQL.
+- Supported software development by documenting and replicating software bugs or feature issues.  Would additionally collect changes to business logic if necessary.
+- Interacted with customers to assess possible software issues and provide technical support.
+
+### Wycle, CAS
+
+System Analyst
+
+Huntsville, AL
+
+2014 - 2012
+
+Worked as an analyst in support of PATRIOT System Effectiveness Model (PSEM), a simulation model of the PATRIOT missile defense system.
+
+- Reduced the time of producing a comprehensive evaluation of PSEM’s performance in integrated test events from days to a few hours.  Accomplished this with a series of shell scripts that loaded data into the database to queries that processed and analyzed the results.
+- Improved quality of new simulation model by helping design the new data architecture.
+- Helped improve software development efficieny by developing BASH shell scripts that automated running software test suite and simulation test cases.
+- Performed Verification and Validation activities on PSEM, co-authored reports on the findings, and presented results to PATRIOT project office.
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Illinois at Urbana-Champaign
+
+M.C.S. in Data Science
+
+Urbana, IL
+
+Current--2017
+
+### University of Alabama in Huntsville
+
+B.E. in Industrial and Systems Engineer
+
+Huntsville, AL
+
+2011--2007
+
+Certifications {data-icon=award data-concise=true}
+--------------------------------------------------------------------------------
+
+### Coursera
+CS 410: Text Information Systems
+
+Urbana, IL
+
+In Process
+
+### Coursera
+CS 498: Data Visualization - [Certification Link](https://www.coursera.org/account/accomplishments/verify/NBN6APMDQFCF)
+
+Urbana, IL
+
+Summer 2019
+
+### Coursera
+CS 498: Applied Machine Learning - [Certification Link](https://www.coursera.org/account/accomplishments/verify/NKTGNS9BVL6T)
+
+Urbana, IL
+
+Spring 2019
+
+### Coursera
+STAT 420: Statistical Modeling in R - [Certification Link](https://www.coursera.org/account/accomplishments/verify/HT74SR7HB8J9)
+
+Urbana, IL
+
+Summer 2018
+
+### Coursera
+CS 498: Cloud Computing Applications - [Certification Link](https://www.coursera.org/account/accomplishments/verify/H5RT5YN6SR5C)
+
+Urbana, IL
+
+Spring 2018
+
+### Coursera
+CS 598: Foundations of Data Curation - [Certification Link](https://www.coursera.org/account/accomplishments/verify/8UXHHXMS3A6D)
+
+Urbana, IL
+
+Fall 2017
