@@ -6,8 +6,10 @@ Here, I am using the [pagedown](https://pagedown.rbind.io/) package to generate 
 
 ## Steps to reproduce
 
-1. You will need to use the `render_resume.sh` script which will execute an R Command to render the resume and following that, copy in the modified `resume.css` file from `css/`
-2. To translate from html to pdf, I attempted a couple of utilities but found the only method that produced a cleaner result was to use the print functionality in chrome and save to Google Drive.
+1. Install `remotes::install_github("rstudio/renv")`
+2. Execute `renv::restore()` to setup your packages with renv.
+3. You will need to use the `render_resume.sh` script which will execute an R Command to render the resume and following that, copy in the modified `resume.css` file from `css/`
+4. To translate from html to pdf, I attempted a couple of utilities but found the only method that produced a cleaner result was to use the print functionality in chrome and save to Google Drive.
 
 ## Issues
 
