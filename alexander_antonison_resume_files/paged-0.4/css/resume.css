@@ -12,7 +12,7 @@
   --margin-right: 5mm;
   --margin-left: 5mm;
   --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
-  --root-font-size: 12pt;
+  --root-font-size: 14pt;
   --sidebar-width: 13rem;
   --sidebar-background-color: #f2f2f2;
   --main-width: calc(var(--content-width) - var(--sidebar-width));
@@ -53,9 +53,9 @@ html {
 body{
   width: var(--content-width);
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   line-height: 1.35;
-  color: #444;
+  color: black;
   hyphens: none;
 }
 
