@@ -17,7 +17,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> adantonison@gmail.com
-- <i class="fab fa-linkedin"></i> [Alexander Antonison](https://www.linkedin.com/in/alexanderantonison/)
+- <i class="fab fa-linkedin"></i> [Alexander Antonison](https://www.linkedin.com/in/alexantonison/)
 - <i class="fa fa-github"></i> [github.com/alex-antonison](https://github.com/alex-antonison/)
 - <i class="fab fa-twitter"></i> [twitter.com/adantonison](https://twitter.com/adantonison)
 - <i class="fas fa-globe"></i> http://alex-antonison.com/
