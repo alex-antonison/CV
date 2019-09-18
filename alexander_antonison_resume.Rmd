@@ -51,9 +51,9 @@ Main
 Alexander Antonison {#title}
 --------------------------------------------------------------------------------
 
-### Machine Learning Engineer
+### Data Scientist
 
-A passionate Machine Learning Engineer focused on finding data solutions to solve business problems.  My Data Engineering and Data Science background provides me the ability to effectively communicate between both worlds which helps in circumstances such as deploying and managing models in production.  I am pursuing a Masters in Data Science through the University of Illinois Urbana-Champaign.
+Over my career, I have performed in Data Engineering, Analytic, and Science roles.  One consistent focus of mine has been working with external and internal customers to help identify opportunities to more effectively work with data in support of business goals.  This has ranged from building automated data pipelines, building out self-service analytics platforms, supporting the construction and deployment of machine learning models, to helping optimize IT infrastructure to better serve an analytic team.
 
 Work Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
