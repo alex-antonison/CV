@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Alexander Antonison" />
-    <meta name="date" content="2019-09-17" />
+    <meta name="date" content="2021-06-25" />
     <title>Alexander Antonison</title>
 
+    
         <link href="alexander_antonison_resume_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
     <link href="alexander_antonison_resume_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-    <link href="alexander_antonison_resume_files/paged-0.4/css/resume.css" rel="stylesheet" />
-    <script src="alexander_antonison_resume_files/paged-0.4/js/config.js"></script>
-    <script src="alexander_antonison_resume_files/paged-0.4/js/paged.js"></script>
-    <script src="alexander_antonison_resume_files/paged-0.4/js/hooks.js"></script>
+    <link href="alexander_antonison_resume_files/paged-0.15/css/resume.css" rel="stylesheet" />
+    <script src="alexander_antonison_resume_files/paged-0.15/js/config.js"></script>
+    <script src="alexander_antonison_resume_files/paged-0.15/js/paged.js"></script>
+    <script src="alexander_antonison_resume_files/paged-0.15/js/hooks.js"></script>
     
     
   </head>
@@ -67,7 +68,7 @@
 <div id="disclaimer" class="section level2">
 <h2>Disclaimer</h2>
 <!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
-<p>Last updated on 2019-09-17.</p>
+<p>Last updated on 2021-06-25.</p>
 </div>
 </div>
 <div id="main" class="section level1">
@@ -187,8 +188,11 @@
     if (i === 0 && el.id === 'title') continue;
     el.className += ' main-block';
     if (el.dataset['concise']) el.className += ' concise';
-    s = el.dataset['icon'] || 'bookmark';
-    el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    // if there is no icon, add an icon:
+    if (el.firstElementChild.firstChild && el.firstElementChild.firstChild.nodeName !== 'I') {
+      s = el.dataset['icon'] || 'bookmark';
+      el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    }
   }
 
   // tweak class names of blocks in sections
